@@ -1,0 +1,204 @@
+* {
+    box-sizing: border-box;
+}
+body, html {
+    max-height: 100vh;
+    margin: 0;
+}
+#body-img {
+    border-style: solid;
+    border-width: 15px 0 12px 0;
+    border-color: #3b2e1e;
+}
+
+body {
+    background-color: #3b2e1e;
+}  
+
+img {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    max-width: 1440px;
+    margin: auto;
+}
+p {
+    font-family: 'Mali', cursive;
+}
+header {
+    background-color: #3c4e2b;
+    text-align: center;
+    padding: 10px 0 10px 0;
+    height: 10vh;
+    display: none;
+}
+#logo-img{
+    max-width: 500px;
+}
+#encounter-layout {
+    background-color: #3c4e2b;
+    text-align: center;
+    padding-bottom: 3px;
+    color: #d4bf88;
+}
+#encounter-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 150px 0 150px;
+}
+#encounter-text {
+    font-size: 28px;
+    margin: 0;
+    padding: 10px 0 10px 0;
+    font-weight: 500;
+}
+.encounter-buttons {
+    display: inline-block;
+}
+.button {
+    background-image: linear-gradient(#4b6b3c, #3a4928);
+    border-radius: 50px;
+    display: inline-block;
+    padding: 8px 25px 8px 25px;
+    font-size: 25px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: #d4bf88;
+    margin: 0 0 15px 0;
+    color: #d4bf88;
+    cursor: pointer;
+}
+.button:hover {
+    background: linear-gradient(180deg, #4b6b3c, #3a4928, #d4bf88, #907a48);
+    background-size: 400% 400%;
+    animation-name: gradient;
+    animation-duration: 0.25s;
+    animation-fill-mode: forwards;
+    border-color: #2e391f;
+    color: #2e391f;
+    transition: 0.4s;
+}
+/* Adapted from https://www.sliderrevolution.com/resources/css-animated-background/ */
+@keyframes gradient {
+    0% {
+        background-position: 50% 0%;
+    }
+    100% {
+        background-position: 50% 100%;
+    }
+}
+#transition-layout {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
+    background-color: #3c4e2b;
+    padding-bottom: 3px;
+    color: #d4bf88;
+}
+#transition-text{
+    margin: auto 0 auto 80px;
+    font-size: 28px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#continue-button {
+    margin: auto;
+}
+#button-spacing {
+    padding: 15px 0 15px 0;
+}
+.transition-img {
+    height: 78.5vh;
+    width: auto;
+}
+.transition-img-box {
+    text-align: center;
+    display: none;
+}
+.encounter-img {
+    height: 64.5vh;
+    width: auto;
+}
+
+/* Lore title page */
+#lore-button {
+    text-align: center;
+    margin: 25px auto 35px auto;
+}
+#lore-button .button {
+    margin: 0;
+    padding: 15px 30px 15px 30px;
+    font-size: 30px;
+}
+#lore-img {
+    height: 50vh;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+#lore {
+    text-align: center;
+    display: none;
+}
+#lore p {
+    text-align: left;
+}
+#scrolling {
+    font-size: 30px;
+    color: #d4bf88;
+    padding: 15px 80px 25px 80px;
+    margin: 0;
+}
+
+/* Lore End Page */
+#lore-button2 {
+    text-align: center;
+    margin: 25px auto 35px auto;
+}
+#lore-button2 .button {
+    margin: 0;
+    padding: 15px 30px 15px 30px;
+    font-size: 30px;
+}
+#lore-img2 {
+    height: 60vh;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+#lore2 {
+    text-align: center;
+    display: none;
+}
+#lore2 p {
+    text-align: left;
+}
+#scrolling2 {
+    font-size: 30px;
+    color: #d4bf88;
+    padding: 15px 80px 25px 80px;
+    margin: 0;
+}
+
+/* Title Page */
+#title-page {
+    text-align: center;
+    background-color: #3c4e2b;
+    color: #d4bf88;
+    font-size: 30px;
+    height: 100vh;
+}
+#title-button {
+    font-weight: 600;
+    font-size: 45px;
+    padding: 10px 35px 10px 35px;
+    margin: 70px auto 50px auto;
+}
+#credits {
+    padding: 30px 0 30px;
+}
+#title-img {
+    padding-top: 45px;
+}
